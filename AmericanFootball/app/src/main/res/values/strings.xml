@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">AmericanFootball</string>
+    <string name="touchdown">touchdown</string>
+    <string name="fieldgoal">fieldgoal</string>
+    <string name="downs">downs</string>
+    <string name="ten_yards">ten yards</string>
+    <string name="extra1">extrapoint+1</string>
+    <string name="extra2">extrapoint+2</string>
+    <string name="reset">reset</string>
+    <string name="team2_safty">TEAM1 FAILD TO SCORE\nSAFTY POINTS TO TEAM2</string>
+    <string name="team1_safty">TEAM2 FAILD TO SCORE\nSAFTY POINTS TO TEAM1</string>
+    <string name="team1_name">team1</string>
+    <string name="team2_name">team2</string>
+    <string name="zero">0</string>
+</resources>

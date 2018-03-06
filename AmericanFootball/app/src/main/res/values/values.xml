@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="button_text_size">14sp</dimen>
+    <dimen name="score_text_size">72sp</dimen>
+    <dimen name="down_text_size">18sp</dimen>
+    <dimen name="team_text_size">20sp</dimen>
+
+    <dimen name="text_margin_bottom">12dp</dimen><!-- score text. -->
+    <dimen name="text_margin_left">12dp</dimen><!-- down text. -->
+    <dimen name="text_margin">12dp</dimen><!-- Team text. -->
+
+    <dimen name="button_margin_bottom">16dp</dimen>
+    <dimen name="margin_center_screen">12dp</dimen>
+
+    <dimen name="Linear_layout_margin">24dp</dimen>
+
+    <dimen name="angle">-90</dimen>
+    <dimen name="radius">3dip</dimen>
+    <dimen name="width">1dip</dimen>
+
+
+
+</resources>

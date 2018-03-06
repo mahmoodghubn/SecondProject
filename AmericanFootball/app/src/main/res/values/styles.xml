@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LeftButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin_bottom</item>
+        <item name="android:layout_marginRight">@dimen/margin_center_screen</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:background">@drawable/mybutton</item>
+    </style>
+
+
+    <style name="bottomButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:background">@drawable/mybutton</item>
+    </style>
+
+    <style name="RightButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/button_margin_bottom</item>
+        <item name="android:layout_marginLeft">@dimen/margin_center_screen</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <item name="android:background">@drawable/mybutton</item>
+    </style>
+
+
+    <style name="teamText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/text_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/team_text_size</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+
+    <style name="scoreText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/text_margin_bottom</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/score_text_size</item>
+    </style>
+
+    <style name="downText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">@dimen/text_margin_left</item>
+        <item name="android:textSize">@dimen/down_text_size</item>
+        <item name="android:textColor">@color/text_color</item>
+    </style>
+</resources>

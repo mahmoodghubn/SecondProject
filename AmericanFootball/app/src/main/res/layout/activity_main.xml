@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/football"
+    tools:context="com.example.android.americanfootball.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/Linear_layout_margin"
+            android:layout_marginRight="@dimen/Linear_layout_margin"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/teamText"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="@string/team1_name" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/downsCounter1"
+                        style="@style/downText"
+                        android:text="@string/zero" />
+
+                    <TextView
+                        android:id="@+id/team1Score"
+                        style="@style/scoreText"
+                        android:layout_marginRight="@dimen/margin_center_screen"
+                        android:text="@string/zero" />
+                </RelativeLayout>
+
+                <Button
+                    style="@style/LeftButton"
+                    android:onClick="touchdown1"
+                    android:text="@string/touchdown" />
+
+
+                <Button
+                    style="@style/LeftButton"
+                    android:onClick="fieldGoal1"
+                    android:text="@string/fieldgoal" />
+
+                <Button
+                    style="@style/LeftButton"
+                    android:onClick="setZeroDowns1"
+                    android:text="@string/ten_yards" />
+
+
+                <Button
+                    style="@style/LeftButton"
+                    android:onClick="dispalyDowns1"
+                    android:text="@string/downs" />
+
+
+                <Button
+                    style="@style/LeftButton"
+                    android:onClick="onePointForTeam1"
+                    android:text="@string/extra1" />
+
+                <Button
+                    style="@style/LeftButton"
+                    android:onClick="twoPointForTeam1"
+                    android:text="@string/extra2" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/darker_gray">
+
+            </View>
+
+
+            <LinearLayout
+
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/teamText"
+                    android:fontFamily="sans-serif-smallcaps"
+                    android:text="@string/team2_name" />
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/downsCounter2"
+                        style="@style/downText"
+                        android:text="@string/zero" />
+
+                    <TextView
+                        android:id="@+id/team2Score"
+                        style="@style/scoreText"
+                        android:layout_marginLeft="@dimen/margin_center_screen"
+                        android:text="@string/zero" />
+                </RelativeLayout>
+
+
+                <Button
+                    style="@style/RightButton"
+                    android:onClick="touchdown2"
+                    android:text="@string/touchdown" />
+
+
+                <Button
+                    style="@style/RightButton"
+                    android:onClick="fieldGoal2"
+                    android:text="@string/fieldgoal" />
+
+                <Button
+                    style="@style/RightButton"
+                    android:onClick="setZeroDowns2"
+                    android:text="@string/ten_yards" />
+
+
+                <Button
+                    style="@style/RightButton"
+                    android:onClick="dispalyDowns2"
+                    android:text="@string/downs" />
+
+
+                <Button
+                    style="@style/RightButton"
+                    android:onClick="onePointForTeam2"
+                    android:text="@string/extra1" />
+
+                <Button
+                    style="@style/RightButton"
+                    android:onClick="twoPointForTeam2"
+                    android:text="@string/extra2" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                style="@style/bottomButton"
+                android:layout_centerHorizontal="true"
+                android:onClick="reset"
+                android:text="@string/reset"
+
+
+                />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
